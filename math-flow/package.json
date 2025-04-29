@@ -1,0 +1,28 @@
+{
+  "name": "math-flow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.4.2",
+    "@chakra-ui/react": "^2.10.7",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "better-react-mathjax": "^2.3.0",
+    "framer-motion": "^12.7.4",
+    "latex": "^0.0.1",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-latex": "^2.0.0",
+    "styled-components": "^6.1.17"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.4"
+  }
+}
