@@ -41,7 +41,7 @@ export default function QuizPage() {
           二次関数
         </Button>
         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("zukeitokeiryou")}>
-          図形と計量＊準備中
+          図形と計量＊準備中です
         </Button>
         <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
