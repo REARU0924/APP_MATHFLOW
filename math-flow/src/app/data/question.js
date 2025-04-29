@@ -350,7 +350,7 @@ const  nizikansu = [
         },
         {
           "type": "question",
-          "image": "/images/nizikansu/question1/script3.png"
+          "image": "/images/nizikansu/question1/script4.png"
         },
       ],
       "options": [
