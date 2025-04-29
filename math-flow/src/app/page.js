@@ -39,6 +39,9 @@ export default function Home() {
         >
           スタート
         </Button>
+        <Text fontSize="x" fontWeight="bold" mb={6}>
+          @KHS数学教室
+        </Text>
       </VStack>
     </Box>
     </ChakraProvider>
