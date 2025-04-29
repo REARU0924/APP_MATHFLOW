@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { Box, Button, Heading, VStack } from '@chakra-ui/react'
+import { Box, Button, Heading, VStack,Text } from '@chakra-ui/react'
 import { ChakraProvider } from '@chakra-ui/react'
 
 export default function Home() {
@@ -39,6 +39,9 @@ export default function Home() {
         >
           スタート
         </Button>
+        <Text fontSize="x" fontWeight="bold" mb={6}>
+          @KHS数学教室
+        </Text>
       </VStack>
     </Box>
     </ChakraProvider>
