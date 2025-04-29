@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { Box, Button, Heading, VStack } from '@chakra-ui/react'
+import { Box, Button, Heading, VStack,Text } from '@chakra-ui/react'
 import { ChakraProvider } from '@chakra-ui/react'
 
 export default function Home() {
