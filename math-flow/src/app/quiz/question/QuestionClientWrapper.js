@@ -1,11 +1,10 @@
-// app/quiz/question/QuestionClient.js
 'use client';
 
+import { useSearchParams } from 'next/navigation';
 import DisplayQuestion from '../../components/DisplayQuestion';
 import { ChakraProvider } from '@chakra-ui/react';
-import { useSearchParams } from 'next/navigation';
 
-export default function QuestionClient() {
+export default function QuestionClientWrapper() {
   const searchParams = useSearchParams();
   const id = searchParams.get('id');
   const unit = searchParams.get('unit');
