@@ -113,7 +113,7 @@ export default function DisplayQuestion({ id, unit, math }) {
         </Text>
       {questionData.content.map((item, index) => {
         if (item.type === "question") {
-          return <Image key={index} src={item.image} alt={`問題${index + 1}`}  width="80%" mb={6} />;
+          return <Image key={index} src={item.image} alt={`問題${index + 1}`}  width="95%" mb={6} />;
         }
         if (item.type === "blank") {
           return (
@@ -128,7 +128,7 @@ export default function DisplayQuestion({ id, unit, math }) {
               p={4}
               minHeight="80px"
               minWidth="120px"
-              width="80%"
+              width="95%"
             >
               {blanks[item.blankId - 1] && (
                 <Image src={blanks[item.blankId - 1]} alt={`空欄${item.blankId}`} maxW="100%" maxH="auto" />
@@ -146,7 +146,7 @@ export default function DisplayQuestion({ id, unit, math }) {
             key={index}
             src={option}
             alt={`選択肢${index + 1}`}
-            width="50%"
+            width="95%"
             height="auto"
             cursor="pointer"
             border="2px solid transparent"
@@ -161,7 +161,7 @@ export default function DisplayQuestion({ id, unit, math }) {
       {result && <Text fontSize="xl" fontWeight="bold" mt={6}>{result}</Text>}
 
       {showExplanation && (
-        <Image src={questionData.explanation} alt="解説画像" width="60%" mt={6} />
+        <Image src={questionData.explanation} alt="解説画像" width="99%" mt={6} />
       )}
       {questionData.id === totalQuestions ? 
       <></> : <Button variant="outline" colorScheme="cyan" onClick={() => handleClick(questionData.id)} mt={6}>次へ</Button>}
