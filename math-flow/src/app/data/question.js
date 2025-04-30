@@ -565,6 +565,50 @@ const  nizikansu = [
       ],
       "explanation": "/images/nizikansu/question6/answer.png"
     },
+    {
+      "id": 7,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question4/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question4/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question4/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question4/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question4/option1.png",
+        "/images/nizikansu/question4/option2.png",
+        "/images/nizikansu/question4/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question4/option1.png",
+        "/images/nizikansu/question4/option2.png",
+        "/images/nizikansu/question4/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question4/answer.png"
+    },
   ]
   
   
