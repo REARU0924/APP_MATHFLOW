@@ -62,7 +62,7 @@ export default function QuizPage() {
        二変数関数の最大最小（２）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
-       四次関数の最大最小（２）
+       四次関数の最大最小（１）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
