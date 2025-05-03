@@ -64,6 +64,24 @@ export default function QuizPage() {
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
        四次関数の最大最小（１）
       </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(12)}>
+       二次関数の決定
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(13)}>
+       二次方程式の係数
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(14)}>
+       二次方程式を含む連立方程式
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(15)}>
+       文字を含む二次方程式の解
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(16)}>
+       実数解を持つ条件
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(17)}>
+       共通解を持つ二つの二次方程式
+      </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>

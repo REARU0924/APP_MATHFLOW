@@ -785,6 +785,270 @@ const  nizikansu = [
       ],
       "explanation": "/images/nizikansu/question11/answer.png"
     },
+    {
+      "id": 12,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question12/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question12/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question12/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question12/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question12/option1.png",
+        "/images/nizikansu/question12/option2.png",
+        "/images/nizikansu/question12/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question12/option1.png",
+        "/images/nizikansu/question12/option2.png",
+        "/images/nizikansu/question12/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question12/answer.png"
+    },
+    {
+      "id": 13,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question13/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question13/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question13/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question13/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question13/option1.png",
+        "/images/nizikansu/question13/option2.png",
+        "/images/nizikansu/question13/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question13/option1.png",
+        "/images/nizikansu/question13/option2.png",
+        "/images/nizikansu/question13/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question13/answer.png"
+    },
+    {
+      "id": 14,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question14/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question14/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question14/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question14/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question14/option1.png",
+        "/images/nizikansu/question14/option2.png",
+        "/images/nizikansu/question14/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question14/option1.png",
+        "/images/nizikansu/question14/option2.png",
+        "/images/nizikansu/question14/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question14/answer.png"
+    },
+    {
+      "id": 15,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question15/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question15/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question15/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question15/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question15/option1.png",
+        "/images/nizikansu/question15/option2.png",
+        "/images/nizikansu/question15/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question15/option1.png",
+        "/images/nizikansu/question15/option2.png",
+        "/images/nizikansu/question15/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question15/answer.png"
+    },
+    {
+      "id": 16,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question16/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question16/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question16/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question16/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question16/option1.png",
+        "/images/nizikansu/question16/option2.png",
+        "/images/nizikansu/question16/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question16/option1.png",
+        "/images/nizikansu/question16/option2.png",
+        "/images/nizikansu/question16/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question16/answer.png"
+    },
+    {
+      "id": 17,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question17/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question17/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question17/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/nizikansu/question17/script4.png"
+        },
+      ],
+      "options": [
+        "/images/nizikansu/question17/option1.png",
+        "/images/nizikansu/question17/option2.png",
+        "/images/nizikansu/question17/option3.png"
+      ],
+      "answers": [
+        "/images/nizikansu/question17/option1.png",
+        "/images/nizikansu/question17/option2.png",
+        "/images/nizikansu/question17/option3.png"
+      ],
+      "explanation": "/images/nizikansu/question17/answer.png"
+    },
   ]
   
   
