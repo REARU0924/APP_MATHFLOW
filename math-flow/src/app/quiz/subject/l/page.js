@@ -40,7 +40,7 @@ export default function QuizPage() {
         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("nizikansu")}>
           二次関数
         </Button>
-        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("zukeitokeiryou")}>
+        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" >
           図形と計量＊準備中
         </Button>
         <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
