@@ -1456,7 +1456,131 @@ const  nizikansu = [
       "explanation": "/images/nizikansu/question27/answer.png"
     },
   ]
+const zukeitokeiryou = [
+    {
+      "id": 1,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question1/option1.png",
+        "/images/zukeitokeiryou/question1/option2.png",
+        "/images/zukeitokeiryou/question1/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question1/option1.png",
+        "/images/zukeitokeiryou/question1/option2.png",
+        "/images/zukeitokeiryou/question1/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question1/answer1.png"
+    },
+    {
+      "id": 2,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question2/option1.png",
+        "/images/zukeitokeiryou/question2/option2.png",
+        "/images/zukeitokeiryou/question2/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question2/option1.png",
+        "/images/zukeitokeiryou/question2/option2.png",
+        "/images/zukeitokeiryou/question2/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question2/answer.png"
+    },
+    {
+      "id": 3,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script3.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question3/option1.png",
+        "/images/zukeitokeiryou/question3/option2.png",
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question3/option1.png",
+        "/images/zukeitokeiryou/question3/option2.png",
+      ],
+      "explanation": "/images/zukeitokeiryou/question3/answer.png"
+    },
+    
+  ]
   
   
-  
-  export default { syugoutomeidai, nizikansu }
+  export default { syugoutomeidai, nizikansu , zukeitokeiryou}
