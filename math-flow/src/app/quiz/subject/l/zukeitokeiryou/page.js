@@ -11,7 +11,7 @@ export default function QuizPage() {
 
   const handleClick = (id) => {
     // IDをURLに渡す
-    router.push(`/quiz/question?id=${id}&unit=l&math=zukeitokeiryou`);
+    router.push(`/quiz/question?id=${id}&unit=zukeitokeiryou&math=l`);
   }
   const handleBack = (id) => {
     // IDをURLに渡す

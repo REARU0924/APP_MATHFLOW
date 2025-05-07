@@ -9,7 +9,7 @@ export default function QuizPage() {
 
   const handleClick = (id) => {
     // IDをURLに渡す
-    router.push(`/quiz/question?id=${id}&math=l&unit=nizikansu`);
+    router.push(`/quiz/question?id=${id}&unit=nizikansu&math=l`);
   }
   const handleBack = (id) => {
     // IDをURLに渡す
