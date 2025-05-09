@@ -42,6 +42,15 @@ export default function QuizPage() {
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
         三角比の条件（２）
       </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
+        三角比を含む不等式
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
+        三角比を含む関数の最大最小
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
+        三角形の成立条件
+      </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>
