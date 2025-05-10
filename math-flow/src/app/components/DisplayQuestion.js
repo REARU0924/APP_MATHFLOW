@@ -60,7 +60,7 @@ export default function DisplayQuestion({ id, unit, math }) {
     }
   }, [questionData]);
   
-  if (!questionData) return <Box minHeight="100vh"bg={'yellow.300'}><Text>Loading...</Text></Box> // データがない場合、ローディング表示
+  if (!questionData) return <Box minHeight="100vh"bg='yellow.300'><Text>Loading...</Text></Box> // データがない場合、ローディング表示
 
   const handleOptionClick = (src) => {
     setSelectedOption(src);
