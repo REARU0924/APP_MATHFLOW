@@ -441,7 +441,7 @@ const  nizikansu = [
         "/images/nizikansu/question3/option2.png",
         "/images/nizikansu/question3/option3.png"
       ],
-      "explanation": "/images/nizikansu/question4/answer.png"
+      "explanation": "/images/nizikansu/question3/answer.png"
     },
     {
       "id": 4,
