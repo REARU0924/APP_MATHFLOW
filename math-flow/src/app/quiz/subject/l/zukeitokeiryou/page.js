@@ -69,6 +69,9 @@ export default function QuizPage() {
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(12)}>
         立体に内接する球
       </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(13)}>
+        立体に外接する球
+      </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>
