@@ -9,7 +9,7 @@ export default function QuestionClientWrapper() {
   const id = searchParams.get('id');
   const unit = searchParams.get('unit');
   const math = searchParams.get('math');
-
+  
   return (
     <ChakraProvider>
       <DisplayQuestion id={id} unit={unit} math={math} />

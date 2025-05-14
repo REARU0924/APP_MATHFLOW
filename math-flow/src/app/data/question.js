@@ -1456,7 +1456,536 @@ const  nizikansu = [
       "explanation": "/images/nizikansu/question27/answer.png"
     },
   ]
+const zukeitokeiryou = [
+    {
+      "id": 1,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question1/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question1/option1.png",
+        "/images/zukeitokeiryou/question1/option2.png",
+        "/images/zukeitokeiryou/question1/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question1/option1.png",
+        "/images/zukeitokeiryou/question1/option2.png",
+        "/images/zukeitokeiryou/question1/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question1/answer1.png"
+    },
+    {
+      "id": 2,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question2/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question2/option1.png",
+        "/images/zukeitokeiryou/question2/option2.png",
+        "/images/zukeitokeiryou/question2/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question2/option1.png",
+        "/images/zukeitokeiryou/question2/option2.png",
+        "/images/zukeitokeiryou/question2/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question2/answer.png"
+    },
+    {
+      "id": 3,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question3/script3.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question3/option1.png",
+        "/images/zukeitokeiryou/question3/option2.png",
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question3/option1.png",
+        "/images/zukeitokeiryou/question3/option2.png",
+      ],
+      "explanation": "/images/zukeitokeiryou/question3/answer.png"
+    },
+    {
+      "id": 4,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question4/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question4/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question4/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question4/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question4/option1.png",
+        "/images/zukeitokeiryou/question4/option2.png",
+        "/images/zukeitokeiryou/question4/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question4/option1.png",
+        "/images/zukeitokeiryou/question4/option2.png",
+        "/images/zukeitokeiryou/question4/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question4/answer.png"
+    },
+    {
+      "id": 5,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question5/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question5/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question5/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question5/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question5/option1.png",
+        "/images/zukeitokeiryou/question5/option2.png",
+        "/images/zukeitokeiryou/question5/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question5/option1.png",
+        "/images/zukeitokeiryou/question5/option2.png",
+        "/images/zukeitokeiryou/question5/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question5/answer.png"
+    },
+    {
+      "id": 6,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question6/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question6/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question6/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question6/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question6/option1.png",
+        "/images/zukeitokeiryou/question6/option2.png",
+        "/images/zukeitokeiryou/question6/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question6/option1.png",
+        "/images/zukeitokeiryou/question6/option2.png",
+        "/images/zukeitokeiryou/question6/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question6/answer.png"
+    },
+    {
+      "id": 7,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question7/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question7/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question7/script3.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question7/option1.png",
+        "/images/zukeitokeiryou/question7/option2.png",
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question7/option1.png",
+        "/images/zukeitokeiryou/question7/option2.png",
+      ],
+      "explanation": "/images/zukeitokeiryou/question7/answer.png"
+    },
+    {
+      "id": 8,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question8/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question8/script2.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question8/option1.png",
+        "/images/zukeitokeiryou/question8/option2.png",
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question8/option1.png",
+        "/images/zukeitokeiryou/question8/option2.png",
+      ],
+      "explanation": "/images/zukeitokeiryou/question8/answer.png"
+    },
+    {
+      "id": 9,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question9/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question9/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question9/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question9/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question9/option1.png",
+        "/images/zukeitokeiryou/question9/option2.png",
+        "/images/zukeitokeiryou/question9/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question9/option1.png",
+        "/images/zukeitokeiryou/question9/option2.png",
+        "/images/zukeitokeiryou/question9/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question9/answer.png"
+    },
+    {
+      "id": 10,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question10/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question10/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question10/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question10/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question10/option1.png",
+        "/images/zukeitokeiryou/question10/option2.png",
+        "/images/zukeitokeiryou/question10/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question10/option1.png",
+        "/images/zukeitokeiryou/question10/option2.png",
+        "/images/zukeitokeiryou/question10/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question10/answer.png"
+    },
+    {
+      "id": 11,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question11/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question11/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question11/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question11/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question11/option1.png",
+        "/images/zukeitokeiryou/question11/option2.png",
+        "/images/zukeitokeiryou/question11/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question11/option1.png",
+        "/images/zukeitokeiryou/question11/option2.png",
+        "/images/zukeitokeiryou/question11/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question11/answer.png"
+    },
+    {
+      "id": 12,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question12/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question12/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question12/script3.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question12/option1.png",
+        "/images/zukeitokeiryou/question12/option2.png",
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question12/option1.png",
+        "/images/zukeitokeiryou/question12/option2.png",
+      ],
+      "explanation": "/images/zukeitokeiryou/question12/answer.png"
+    },
+    {
+      "id": 13,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question13/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question13/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question13/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/zukeitokeiryou/question13/script4.png"
+        },
+      ],
+      "options": [
+        "/images/zukeitokeiryou/question13/option1.png",
+        "/images/zukeitokeiryou/question13/option2.png",
+        "/images/zukeitokeiryou/question13/option3.png"
+      ],
+      "answers": [
+        "/images/zukeitokeiryou/question13/option1.png",
+        "/images/zukeitokeiryou/question13/option2.png",
+        "/images/zukeitokeiryou/question13/option3.png"
+      ],
+      "explanation": "/images/zukeitokeiryou/question13/answer.png"
+    },
+  ]
   
   
-  
-  export default { syugoutomeidai, nizikansu }
+  export default { syugoutomeidai, nizikansu , zukeitokeiryou}

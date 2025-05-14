@@ -11,7 +11,7 @@ export default function QuizPage() {
 
   const handleClick = (id) => {
     // IDをURLに渡す
-    router.push(`/quiz/question?id=${id}&unit=l&math=zukeitokeiryou`);
+    router.push(`/quiz/question?id=${id}&unit=zukeitokeiryou&math=l`);
   }
   const handleBack = (id) => {
     // IDをURLに渡す
@@ -30,14 +30,47 @@ export default function QuizPage() {
       p={6}
     >
       <Heading as="h1" size="2xl" mb={12} fontFamily="mono" color="black">
-        図形と計量
+        三角比
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
-        さんぷる１
+        三角比を含む方程式
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(2)}>
-        さんぷる２
+        三角比の条件（１）
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
+        三角比の条件（２）
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
+        三角比を含む不等式
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
+        三角比を含む関数の最大最小
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
+        三角形の成立条件
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(7)}>
+        辺の長さが関数のとき
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(8)}>
+        辺や角の等式の証明
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(9)}>
+        円に内接する四角形
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(10)}>
+        三角形の面積の最小値
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
+        正四面体
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(12)}>
+        立体に内接する球
+      </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(13)}>
+        立体に外接する球
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
