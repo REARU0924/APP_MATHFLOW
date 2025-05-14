@@ -30,7 +30,7 @@ export default function QuizPage() {
       p={6}
     >
       <Heading as="h1" size="2xl" mb={12} fontFamily="mono" color="black">
-        図形と計量
+        三角比
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
