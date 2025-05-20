@@ -2510,24 +2510,14 @@ const baainokazu =[
           "type": "question",
           "image": "/images/baainokazu/question13/script3.png"
         },
-        {
-          "type": "blank",
-          "blankId": 3
-        },
-        {
-          "type": "question",
-          "image": "/images/baainokazu/question13/script4.png"
-        },
       ],
       "options": [
         "/images/baainokazu/question13/option1.png",
         "/images/baainokazu/question13/option2.png",
-        "/images/baainokazu/question13/option3.png"
       ],
       "answers": [
         "/images/baainokazu/question13/option1.png",
         "/images/baainokazu/question13/option2.png",
-        "/images/baainokazu/question13/option3.png"
       ],
       "explanation": "/images/baainokazu/question13/answer.png"
     }
