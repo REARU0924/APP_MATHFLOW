@@ -114,7 +114,7 @@ export default function DisplayQuestion({ id, unit, math }) {
     
     <Box minH="100vh" bg="yellow.300" p={6} display="flex" flexDirection="column" alignItems="center" justifyContent="center">
         
-        <Text fontSize="xl" fontWeight="bold" mb={6}>
+        <Text fontSize="2xl" fontWeight="bold" mb={6} textAlign="center">
           {unitNames[unit]}：問題番号{questionData.id}
         </Text>
         
