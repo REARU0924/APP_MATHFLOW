@@ -11,7 +11,7 @@ const unitNames = {
   'kakuritu': '確率',
   'nizikansu': '二次関数',
   'syugoutomeidai': '集合と命題',
-  'zukeitokeiryou': '図形と計量'
+  'zukeitokeiryou': '三角比'
 }
 
 const shuffleArray = (array) => {
