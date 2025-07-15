@@ -2702,5 +2702,310 @@ const kakuritu = [
       ],
       "explanation": "/images/kakuritu/question4/answer.png"
     }
+    ,
+    {
+      "id": 5,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question5/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question5/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question5/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question5/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question5/option1.png",
+        "/images/kakuritu/question5/option2.png",
+        "/images/kakuritu/question5/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question5/option1.png",
+        "/images/kakuritu/question5/option2.png",
+        "/images/kakuritu/question5/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question5/answer.png"
+    }
+    ,
+    {
+      "id": 6,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question6/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question6/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question6/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question6/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question6/option1.png",
+        "/images/kakuritu/question6/option2.png",
+        "/images/kakuritu/question6/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question6/option1.png",
+        "/images/kakuritu/question6/option2.png",
+        "/images/kakuritu/question6/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question6/answer.png"
+    }
+    ,
+    {
+      "id": 7,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question7/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question7/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question7/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question7/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question7/option1.png",
+        "/images/kakuritu/question7/option2.png",
+        "/images/kakuritu/question7/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question7/option1.png",
+        "/images/kakuritu/question7/option2.png",
+        "/images/kakuritu/question7/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question7/makeQuestion_1.png"
+    }
+    ,
+    {
+      "id": 8,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question8/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question8/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question8/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question8/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question8/option1.png",
+        "/images/kakuritu/question8/option2.png",
+        "/images/kakuritu/question8/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question8/option1.png",
+        "/images/kakuritu/question8/option2.png",
+        "/images/kakuritu/question8/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question8/makeQuestion_1.png"
+    }
+    ,
+    {
+      "id": 9,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question9/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question9/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question9/script3.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question9/option1.png",
+        "/images/kakuritu/question9/option2.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question9/option1.png",
+        "/images/kakuritu/question9/option2.png"
+      ],
+      "explanation": "/images/kakuritu/question9/makeQuestion_1.png"
+    }
+    ,
+    {
+      "id": 10,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question10/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question10/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question10/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question10/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question10/option1.png",
+        "/images/kakuritu/question10/option2.png",
+        "/images/kakuritu/question10/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question10/option1.png",
+        "/images/kakuritu/question10/option2.png",
+        "/images/kakuritu/question10/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question10/answer.png"
+    }
+    ,
+    {
+      "id": 11,
+      "content": [
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question11/script1.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 1
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question11/script2.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 2
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question11/script3.png"
+        },
+        {
+          "type": "blank",
+          "blankId": 3
+        },
+        {
+          "type": "question",
+          "image": "/images/kakuritu/question11/script4.png"
+        },
+      ],
+      "options": [
+        "/images/kakuritu/question11/option1.png",
+        "/images/kakuritu/question11/option2.png",
+        "/images/kakuritu/question11/option3.png"
+      ],
+      "answers": [
+        "/images/kakuritu/question11/option1.png",
+        "/images/kakuritu/question11/option2.png",
+        "/images/kakuritu/question11/option3.png"
+      ],
+      "explanation": "/images/kakuritu/question11/answer.png"
+    }
   ]
   export default { syugoutomeidai, nizikansu , zukeitokeiryou, baainokazu, kakuritu }

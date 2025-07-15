@@ -13,7 +13,7 @@ export default function QuizPage() {
   }
   const handleBack = (id) => {
     // IDをURLに渡す
-    router.push(`/quiz/subject/l`);
+    router.push(`/quiz/subject/A`);
   }
 
   return (
