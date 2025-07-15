@@ -32,43 +32,43 @@ export default function QuizPage() {
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
-        集合の要素の個数（１）
+        １ 集合の要素の個数（１）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(2)}>
-        集合の要素の個数（２）
+        ２ 集合の要素の個数（２）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
-       余事象の考え方
+       ３ 余事象の考え方
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
-       辞書順に並べる順列
+       ４ 辞書順に並べる順列
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
-       立方体の塗り分け
+       ５ 立方体の塗り分け
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
-       重複順列
+       ６ 重複順列
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(7)}>
-       三角形の個数と組み合わせ
+       ７ 三角形の個数と組み合わせ
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(8)}>
-       塗り分け問題
+       ８ 塗り分け問題
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(9)}>
-       同じものを含む順列（１）
+       ９ 同じものを含む順列（１）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(10)}>
-       同じものを含む順列（２）
+       １０ 同じものを含む順列（２）
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
-       最短経路
+       １１ 最短経路
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(12)}>
-       〇とⅠ（丸と仕切り）問題
+       １２ 〇とⅠ（丸と仕切り）問題
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(13)}>
-       整数解の個数
+       １３ 整数解の個数
       </Button>
       
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>

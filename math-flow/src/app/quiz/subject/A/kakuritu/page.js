@@ -32,37 +32,37 @@ export default function QuizPage() {
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
-        組み合わせと確立
+        １ 組み合わせと確立
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(2)}>
-        じゃんけん
+        ２ じゃんけん
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
-       確率の条件
+       ３ 確率の条件
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
-       二次方程式の解と確率
+       ４ 二次方程式の解と確率
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
-       プレゼントの問題
+       ５ プレゼントの問題
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
-       確率と事象
+       ６ 確率と事象
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(7)}>
-       3つの事象の反復試行
+       ７ 3つの事象の反復試行
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(8)}>
-       点の移動と反復試行
+       ８ 点の移動と反復試行
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(9)}>
-       二点の移動と確率
+       ９ 二点の移動と確率
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(10)}>
-       条件付き確率
+       １０ 条件付き確率
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
-       不良品の確率
+       １１ 不良品の確率
       </Button>
       
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>

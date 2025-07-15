@@ -5,6 +5,15 @@ import { useRouter } from 'next/navigation'
 import { Box, Button, Image, VStack, Text, HStack } from '@chakra-ui/react'
 import questionSets from '../data/question'
 
+// 単元の日本語名を管理する辞書
+const unitNames = {
+  'baainokazu': '場合の数',
+  'kakuritu': '確率',
+  'nizikansu': '二次関数',
+  'syugoutomeidai': '集合と命題',
+  'zukeitokeiryou': '図形と計量'
+}
+
 const shuffleArray = (array) => {
   const shuffledArray = [...array]
   if (shuffledArray.length <= 1) return shuffledArray;
@@ -104,6 +113,10 @@ export default function DisplayQuestion({ id, unit, math }) {
   return (
     
     <Box minH="100vh" bg="yellow.300" p={6} display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+        
+        <Text fontSize="xl" fontWeight="bold" mb={6}>
+          {unitNames[unit]}：問題番号{questionData.id}
+        </Text>
         
         <Text fontSize="xl" fontWeight="bold" mb={6}>
           以下の問題の解答内の空欄に選択肢を正しい順番で入れよ

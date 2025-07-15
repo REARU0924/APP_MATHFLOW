@@ -34,28 +34,28 @@ export default function QuizPage() {
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
-        集合の包含関係
+        １ 集合の包含関係
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(2)}>
-        集合の要素の決定
+        ２ 集合の要素の決定
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
-        命題と反例
+        ３ 命題と反例
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
-        「すべて」「ある」の否定
+        ４ 「すべて」「ある」の否定
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
-        命題の否定
+        ５ 命題の否定
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
-        対偶を利用した証明
+        ６ 対偶を利用した証明
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(7)}>
-        無理数であることの証明
+        ７ 無理数であることの証明
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(8)}>
-        有理数と無理数の関係
+        ８ 有理数と無理数の関係
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
