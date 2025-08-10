@@ -32,35 +32,39 @@ export default function QuizPage() {
       </Heading>
       <VStack spacing={4}>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick(1)}>
-        １ 三角形の五心
+        １ 重心
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(2)}>
-        ２ 角の二等分線の性質
+        ２ 三角形の外心・重心
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(3)}>
-       ３ チェバの定理
+       ３ メネラウスの定理
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(4)}>
-       ４ メネラウスの定理
+       ４ 三角形の周の長さ
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(5)}>
-       ５ 円に内接する四角形
+       ５ 三角形の辺と角の大小
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(6)}>
-       ６ 円に外接する四角形
+       ６ 最短経路
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(7)}>
-       ７ 方べきの定理
+       ７ 円に内接する四角形
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(8)}>
-       ８ 円の接線
+       ８ 接弦定理
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(9)}>
-       ９ 円と直線の位置関係
+       ９ 方べきの定理
       </Button>
       <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(10)}>
-       １０ 空間図形の性質
+       １０ 外接する２円
       </Button>
+      <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan"  onClick={() => handleClick(11)}>
+        １１ 回転体の体積
+      </Button>
+
       
       <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る

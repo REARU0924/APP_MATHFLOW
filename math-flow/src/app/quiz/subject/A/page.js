@@ -40,6 +40,9 @@ export default function QuizPage() {
         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("kakuritu")}>
           確率
         </Button>
+        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("zukeinoseisitu")}>
+          図形の性質
+        </Button>
         <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>
