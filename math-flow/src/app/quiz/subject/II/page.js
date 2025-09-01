@@ -34,6 +34,9 @@ export default function QuizPage() {
         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sikitosyoumei")}>
           式と証明
         </Button>
+        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("hukusosutohouteisiki")}>
+          複素数と方程式
+        </Button>
         {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sankakukannsu")}>
           三角関数
         </Button>
