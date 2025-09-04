@@ -11,7 +11,12 @@ const unitNames = {
   'kakuritu': '確率',
   'nizikansu': '二次関数',
   'syugoutomeidai': '集合と命題',
-  'zukeitokeiryou': '三角比'
+  'zukeitokeiryou': '三角比',
+  'hukusosutohouteisiki': '複素数と方程式',
+  'seisu': '整数',
+  'sikitosyoumei': '式と証明',
+  'zukeitohouteisiki': '図形と方程式',
+  'zukeinoseisitu': '図形の性質'
 }
 
 const shuffleArray = (array) => {
@@ -114,7 +119,7 @@ export default function DisplayQuestion({ id, unit, math }) {
     
     <Box minH="100vh" bg="yellow.300" p={6} display="flex" flexDirection="column" alignItems="center" justifyContent="center">
         
-        <Text fontSize="2xl" fontWeight="bold" mb={6} textAlign="center">
+        <Text fontSize="2xl" fontWeight="bold" mb={6} color={'red.500'}>
           {unitNames[unit]}：問題番号{questionData.id}
         </Text>
         
