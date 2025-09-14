@@ -34,18 +34,10 @@ export default function QuizPage() {
         {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sikitosyoumei")}>
           数列
         </Button> */}
-        {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sankakukannsu")}>
-          三角関数
-        </Button>
-        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sisukannsu")}>
-          指数関数・対数関数
-        </Button>
-        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("bibun")}>
-          微分法
-        </Button>
-        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sekibun")}>
-          積分法
+        {/* /* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sankakukannsu")}>
+          ベクトル
         </Button> */}
+        
         <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>
