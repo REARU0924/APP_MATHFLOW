@@ -46,12 +46,12 @@ export default function QuizPage() {
         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sisutaisu")}>
           指数関数・対数関数
         </Button>
-        {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("bibun")}>
+         <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("bibun")}>
           微分法
         </Button>
-        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sekibun")}>
+        {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sekibun")}>
           積分法
-        </Button>  */}
+        </Button>   */}
         <Button width="full" fontWeight="bold" boxShadow="md"  variant="outline" onClick={() => handleBack()} mt={6}>
           戻る
         </Button>

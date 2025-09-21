@@ -4191,7 +4191,6 @@ const seisu = [
     "explanation": "/images/seisu/question16/answer.png"
   }
 ]
-// ...既存のコード...
 const sikitosyoumei = [
   {
     "id": 1,
@@ -4414,7 +4413,6 @@ const sikitosyoumei = [
     "explanation": "/images/sikitosyoumei/question5/answer.png"
   }
 ]
-// ...既存のコード...
 const hukusosutohouteisiki =[
   {
     "id": 1,
@@ -5033,7 +5031,6 @@ const hukusosutohouteisiki =[
     "explanation": "/images/hukusosutohouteisiki/question14/answer.png"
   }
 ]
-// ...existing code...
 const zukeitohouteisiki = [
   {
     "id": 1,
@@ -6756,4 +6753,799 @@ const sisutaisu = [
     "explanation": "/images/sisutaisu/question8/answer.png"
   }
 ]
-export default { syugoutomeidai, nizikansu, zukeitokeiryou, baainokazu, kakuritu, zukeinoseisitu, seisu, sikitosyoumei, hukusosutohouteisiki, zukeitohouteisiki, sankakukansu, sisutaisu }
+const bibun = [
+  {
+    "id": 1,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question1/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question1/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question1/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question1/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question1/option1.png",
+      "/images/bibun/question1/option2.png",
+      "/images/bibun/question1/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question1/option1.png",
+      "/images/bibun/question1/option2.png",
+      "/images/bibun/question1/option3.png"
+    ],
+    "explanation": "/images/bibun/question1/answer.png"
+  },
+  {
+    "id": 2,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question2/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question2/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question2/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question2/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question2/option1.png",
+      "/images/bibun/question2/option2.png",
+      "/images/bibun/question2/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question2/option1.png",
+      "/images/bibun/question2/option2.png",
+      "/images/bibun/question2/option3.png"
+    ],
+    "explanation": "/images/bibun/question2/answer.png"
+  },
+  {
+    "id": 3,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question3/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question3/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question3/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question3/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question3/option1.png",
+      "/images/bibun/question3/option2.png",
+      "/images/bibun/question3/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question3/option1.png",
+      "/images/bibun/question3/option2.png",
+      "/images/bibun/question3/option3.png"
+    ],
+    "explanation": "/images/bibun/question3/answer.png"
+  },
+  {
+    "id": 4,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question4/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question4/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question4/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question4/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question4/option1.png",
+      "/images/bibun/question4/option2.png",
+      "/images/bibun/question4/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question4/option1.png",
+      "/images/bibun/question4/option2.png",
+      "/images/bibun/question4/option3.png"
+    ],
+    "explanation": "/images/bibun/question4/answer.png"
+  },
+  {
+    "id": 5,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question5/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question5/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question5/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question5/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question5/option1.png",
+      "/images/bibun/question5/option2.png",
+      "/images/bibun/question5/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question5/option1.png",
+      "/images/bibun/question5/option2.png",
+      "/images/bibun/question5/option3.png"
+    ],
+    "explanation": "/images/bibun/question5/answer.png"
+  },
+  {
+    "id": 6,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question6/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question6/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question6/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question6/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question6/option1.png",
+      "/images/bibun/question6/option2.png",
+      "/images/bibun/question6/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question6/option1.png",
+      "/images/bibun/question6/option2.png",
+      "/images/bibun/question6/option3.png"
+    ],
+    "explanation": "/images/bibun/question6/answer.png"
+  },
+  {
+    "id": 7,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question7/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question7/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question7/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question7/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question7/option1.png",
+      "/images/bibun/question7/option2.png",
+      "/images/bibun/question7/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question7/option1.png",
+      "/images/bibun/question7/option2.png",
+      "/images/bibun/question7/option3.png"
+    ],
+    "explanation": "/images/bibun/question7/answer.png"
+  },
+  {
+    "id": 8,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question8/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question8/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question8/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question8/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question8/option1.png",
+      "/images/bibun/question8/option2.png",
+      "/images/bibun/question8/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question8/option1.png",
+      "/images/bibun/question8/option2.png",
+      "/images/bibun/question8/option3.png"
+    ],
+    "explanation": "/images/bibun/question8/answer.png"
+  },
+  {
+    "id": 9,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question9/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question9/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question9/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question9/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question9/option1.png",
+      "/images/bibun/question9/option2.png",
+      "/images/bibun/question9/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question9/option1.png",
+      "/images/bibun/question9/option2.png",
+      "/images/bibun/question9/option3.png"
+    ],
+    "explanation": "/images/bibun/question9/answer.png"
+  },
+  {
+    "id": 10,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question10/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question10/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question10/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question10/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question10/option1.png",
+      "/images/bibun/question10/option2.png",
+      "/images/bibun/question10/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question10/option1.png",
+      "/images/bibun/question10/option2.png",
+      "/images/bibun/question10/option3.png"
+    ],
+    "explanation": "/images/bibun/question10/answer.png"
+  },
+  {
+    "id": 11,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question11/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question11/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question11/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question11/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question11/option1.png",
+      "/images/bibun/question11/option2.png",
+      "/images/bibun/question11/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question11/option1.png",
+      "/images/bibun/question11/option2.png",
+      "/images/bibun/question11/option3.png"
+    ],
+    "explanation": "/images/bibun/question11/answer.png"
+  },
+  {
+    "id": 12,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question12/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question12/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question12/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question12/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question12/option1.png",
+      "/images/bibun/question12/option2.png",
+      "/images/bibun/question12/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question12/option1.png",
+      "/images/bibun/question12/option2.png",
+      "/images/bibun/question12/option3.png"
+    ],
+    "explanation": "/images/bibun/question12/answer.png"
+  },
+  {
+    "id": 13,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question13/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question13/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question13/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question13/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question13/option1.png",
+      "/images/bibun/question13/option2.png",
+      "/images/bibun/question13/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question13/option1.png",
+      "/images/bibun/question13/option2.png",
+      "/images/bibun/question13/option3.png"
+    ],
+    "explanation": "/images/bibun/question13/answer.png"
+  },
+  {
+    "id": 14,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question14/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question14/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question14/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question14/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question14/option1.png",
+      "/images/bibun/question14/option2.png",
+      "/images/bibun/question14/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question14/option1.png",
+      "/images/bibun/question14/option2.png",
+      "/images/bibun/question14/option3.png"
+    ],
+    "explanation": "/images/bibun/question14/answer.png"
+  },
+  {
+    "id": 15,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question15/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question15/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question15/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question15/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question15/option1.png",
+      "/images/bibun/question15/option2.png",
+      "/images/bibun/question15/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question15/option1.png",
+      "/images/bibun/question15/option2.png",
+      "/images/bibun/question15/option3.png"
+    ],
+    "explanation": "/images/bibun/question15/answer.png"
+  },
+  {
+    "id": 16,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question16/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question16/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question16/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question16/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question16/option1.png",
+      "/images/bibun/question16/option2.png",
+      "/images/bibun/question16/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question16/option1.png",
+      "/images/bibun/question16/option2.png",
+      "/images/bibun/question16/option3.png"
+    ],
+    "explanation": "/images/bibun/question16/answer.png"
+  },
+  {
+    "id": 17,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question17/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question17/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question17/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question17/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question17/option1.png",
+      "/images/bibun/question17/option2.png",
+      "/images/bibun/question17/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question17/option1.png",
+      "/images/bibun/question17/option2.png",
+      "/images/bibun/question17/option3.png"
+    ],
+    "explanation": "/images/bibun/question17/answer.png"
+  },
+  {
+    "id": 18,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/bibun/question18/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question18/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question18/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/bibun/question18/script4.png"
+      }
+    ],
+    "options": [
+      "/images/bibun/question18/option1.png",
+      "/images/bibun/question18/option2.png",
+      "/images/bibun/question18/option3.png"
+    ],
+    "answers": [
+      "/images/bibun/question18/option1.png",
+      "/images/bibun/question18/option2.png",
+      "/images/bibun/question18/option3.png"
+    ],
+    "explanation": "/images/bibun/question18/answer.png"
+  }
+]
+
+export default { syugoutomeidai, nizikansu, zukeitokeiryou, baainokazu, kakuritu, zukeinoseisitu, seisu, sikitosyoumei, hukusosutohouteisiki, zukeitohouteisiki, sankakukansu, sisutaisu, bibun }
