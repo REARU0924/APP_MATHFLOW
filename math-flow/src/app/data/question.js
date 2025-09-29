@@ -7547,5 +7547,446 @@ const bibun = [
     "explanation": "/images/bibun/question18/answer.png"
   }
 ]
-
-export default { syugoutomeidai, nizikansu, zukeitokeiryou, baainokazu, kakuritu, zukeinoseisitu, seisu, sikitosyoumei, hukusosutohouteisiki, zukeitohouteisiki, sankakukansu, sisutaisu, bibun }
+const sekibun = [
+  {
+    "id": 1,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question1/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question1/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question1/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question1/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question1/option1.png",
+      "/images/sekibun/question1/option2.png",
+      "/images/sekibun/question1/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question1/option1.png",
+      "/images/sekibun/question1/option2.png",
+      "/images/sekibun/question1/option3.png"
+    ],
+    "explanation": "/images/sekibun/question1/answer.png"
+  },
+  {
+    "id": 2,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question2/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question2/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question2/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question2/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question2/option1.png",
+      "/images/sekibun/question2/option2.png",
+      "/images/sekibun/question2/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question2/option1.png",
+      "/images/sekibun/question2/option2.png",
+      "/images/sekibun/question2/option3.png"
+    ],
+    "explanation": "/images/sekibun/question2/answer.png"
+  },
+  {
+    "id": 3,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question3/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question3/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question3/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question3/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question3/option1.png",
+      "/images/sekibun/question3/option2.png",
+      "/images/sekibun/question3/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question3/option1.png",
+      "/images/sekibun/question3/option2.png",
+      "/images/sekibun/question3/option3.png"
+    ],
+    "explanation": "/images/sekibun/question3/answer.png"
+  },
+  {
+    "id": 4,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question4/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question4/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question4/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question4/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question4/option1.png",
+      "/images/sekibun/question4/option2.png",
+      "/images/sekibun/question4/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question4/option1.png",
+      "/images/sekibun/question4/option2.png",
+      "/images/sekibun/question4/option3.png"
+    ],
+    "explanation": "/images/sekibun/question4/answer.png"
+  },
+  {
+    "id": 5,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question5/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question5/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question5/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question5/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question5/option1.png",
+      "/images/sekibun/question5/option2.png",
+      "/images/sekibun/question5/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question5/option1.png",
+      "/images/sekibun/question5/option2.png",
+      "/images/sekibun/question5/option3.png"
+    ],
+    "explanation": "/images/sekibun/question5/answer.png"
+  },
+  {
+    "id": 6,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question6/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question6/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question6/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question6/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question6/option1.png",
+      "/images/sekibun/question6/option2.png",
+      "/images/sekibun/question6/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question6/option1.png",
+      "/images/sekibun/question6/option2.png",
+      "/images/sekibun/question6/option3.png"
+    ],
+    "explanation": "/images/sekibun/question6/answer.png"
+  },
+  {
+    "id": 7,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question7/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question7/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question7/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question7/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question7/option1.png",
+      "/images/sekibun/question7/option2.png",
+      "/images/sekibun/question7/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question7/option1.png",
+      "/images/sekibun/question7/option2.png",
+      "/images/sekibun/question7/option3.png"
+    ],
+    "explanation": "/images/sekibun/question7/answer.png"
+  },
+  {
+    "id": 8,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question8/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question8/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question8/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question8/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question8/option1.png",
+      "/images/sekibun/question8/option2.png",
+      "/images/sekibun/question8/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question8/option1.png",
+      "/images/sekibun/question8/option2.png",
+      "/images/sekibun/question8/option3.png"
+    ],
+    "explanation": "/images/sekibun/question8/answer.png"
+  },
+  {
+    "id": 9,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question9/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question9/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question9/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question9/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question9/option1.png",
+      "/images/sekibun/question9/option2.png",
+      "/images/sekibun/question9/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question9/option1.png",
+      "/images/sekibun/question9/option2.png",
+      "/images/sekibun/question9/option3.png"
+    ],
+    "explanation": "/images/sekibun/question9/answer.png"
+  },
+  {
+    "id": 10,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/sekibun/question10/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question10/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question10/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/sekibun/question10/script4.png"
+      }
+    ],
+    "options": [
+      "/images/sekibun/question10/option1.png",
+      "/images/sekibun/question10/option2.png",
+      "/images/sekibun/question10/option3.png"
+    ],
+    "answers": [
+      "/images/sekibun/question10/option1.png",
+      "/images/sekibun/question10/option2.png",
+      "/images/sekibun/question10/option3.png"
+    ],
+    "explanation": "/images/sekibun/question10/answer.png"
+  }
+]
+export default { syugoutomeidai, nizikansu, zukeitokeiryou, baainokazu, kakuritu, zukeinoseisitu, seisu, sikitosyoumei, hukusosutohouteisiki, zukeitohouteisiki, sankakukansu, sisutaisu, bibun, sekibun }
