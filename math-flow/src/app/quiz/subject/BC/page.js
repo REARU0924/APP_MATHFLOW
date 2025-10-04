@@ -8,7 +8,7 @@ export default function QuizPage() {
   const router = useRouter()
 
   const handleClick = (p) => {
-    router.push(`/quiz/subject/II/${p}`)
+    router.push(`/quiz/subject/BC/${p}`)
   }
 
   const handleBack = (id) => {
@@ -31,10 +31,10 @@ export default function QuizPage() {
         数B+Cの問題
       </Heading>
       <VStack spacing={4}>
-        {/* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sikitosyoumei")}>
+        <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("suretu")}>
           数列
-        </Button> */}
-        {/* /* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("sankakukannsu")}>
+        </Button>
+        {/* /* <Button width="full" fontWeight="bold" boxShadow="md"  colorScheme="cyan" onClick={() => handleClick("bekutoru")}>
           ベクトル
         </Button> */}
         
