@@ -9046,7 +9046,96 @@ const suretu = [
       "/images/suretu/question24/option3.png"
     ],
     "explanation": "/images/suretu/question24/answer.png"
+  },
+  {
+    "id": 25,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/suretu/question25/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question25/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question25/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question25/script4.png"
+      }
+    ],
+    "options": [
+      "/images/suretu/question25/option1.png",
+      "/images/suretu/question25/option2.png",
+      "/images/suretu/question25/option3.png"
+    ],
+    "answers": [
+      "/images/suretu/question25/option1.png",
+      "/images/suretu/question25/option2.png",
+      "/images/suretu/question25/option3.png"
+    ],
+    "explanation": "/images/suretu/question25/answer.png"
+  },
+  {
+    "id": 26,
+    "content": [
+      {
+        "type": "question",
+        "image": "/images/suretu/question26/script1.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 1
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question26/script2.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 2
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question26/script3.png"
+      },
+      {
+        "type": "blank",
+        "blankId": 3
+      },
+      {
+        "type": "question",
+        "image": "/images/suretu/question26/script4.png"
+      }
+    ],
+    "options": [
+      "/images/suretu/question26/option1.png",
+      "/images/suretu/question26/option2.png",
+      "/images/suretu/question26/option3.png"
+    ],
+    "answers": [
+      "/images/suretu/question26/option1.png",
+      "/images/suretu/question26/option2.png",
+      "/images/suretu/question26/option3.png"
+    ],
+    "explanation": "/images/suretu/question26/answer.png"
   }
+
 ]
 
 export default { syugoutomeidai, nizikansu, zukeitokeiryou, baainokazu, kakuritu, zukeinoseisitu, seisu, sikitosyoumei, hukusosutohouteisiki, zukeitohouteisiki, sankakukansu, sisutaisu, bibun, sekibun, suretu }
